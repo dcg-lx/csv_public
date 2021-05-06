@@ -4,8 +4,8 @@ email: joao.neves@edu.ulisboa.pt
 description: >-
   Convex and Solid-Voids is a research project developed by the Design 
   Computing Group at the Faculty of Architecture, University of Lisbon.
-baseurl: ""
-url: "https://joaoponceleao.github.io/dcg_uvoids"
+baseurl: "/dcg_uvoids"
+url: "https://joaoponceleao.github.io"
 twitter_username: ponceleao
 github_username: joaoponceleao
 
