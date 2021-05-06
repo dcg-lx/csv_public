@@ -65,7 +65,7 @@ uvoids --vpp_vertex_significance=1
 uvoids --tolerance=0.0001
 ```
 
-- There are other options and arguments you can mix and match. Please check the help screen in the terminal, or the help page [here]({% post_url 2021-04-30-cli-instructions %})
+- There are other options and arguments you can mix and match. Please check the help screen in the terminal, or the help page [here]({{site.baseurl}}{% post_url 2021-04-30-cli-instructions %})
 
 ## Issues
 

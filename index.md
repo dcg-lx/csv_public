@@ -15,7 +15,7 @@ The tools consist of two main parts. The first part is a pre-processor that runs
 
 Installation instructions for the original QGIS 2 plugin can be found at the homepage of the project, tutorial section [tutorial](http://solidvoids.fa.ulisboa.pt/tutorial/){:target="_blank" rel="noopener"}.
 
-The standalone CLI is distributed as a Docker image. Installation and usage instructions are available [here]({% post_url 2021-04-30-cli-instructions %})
+The standalone CLI is distributed as a Docker image. Installation and usage instructions are available [here]({{site.baseurl}}{% post_url 2021-04-30-cli-instructions %})
 
 A QGIS 3 plugin is currently under development and will be released here when ready.
 
@@ -27,8 +27,8 @@ The Docker CLI is not yet sufficiently tested but has the advantage of being com
 
 If you are experiencing problems, or want to experiment with new developments such as the CLI interface or QGIS 3 plugin, you can get started here:
 
-- CLI installation and [instructions]({% post_url 2021-04-30-cli-instructions %})
-- CLI help [documentation]({% post_url 2021-05-03-cli-help %})
+- CLI installation and [instructions]({{site.baseurl}}{% post_url 2021-04-30-cli-instructions %})
+- CLI help [documentation]({{site.baseurl}}{% post_url 2021-05-03-cli-help %})
 - QGIS 3 installation and instructions (under development)
 - Check open and closed [issues](https://github.com/joaoponceleao/dcg_uvoids/issues?q=is%3Aissue){:target="_blank" rel="noopener"} for workarounds
 - Submit a bug [report](https://github.com/joaoponceleao/dcg_uvoids/issues/new/choose){:target="_blank" rel="noopener"}
