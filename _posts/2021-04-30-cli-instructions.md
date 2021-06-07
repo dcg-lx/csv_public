@@ -15,13 +15,21 @@ This project uses Docker to isolate the user's system from the program's require
     - [get docker](https://docs.docker.com/get-docker/){:target="_blank" rel="noopener"}
   - Launch Docker and wait for it to finish starting (check the whale in the OS status or menu bar).
 - Get the uvoids image:
-  - Launch a new terminal console (terminal on Mac, cmd on Windows).
-  <!-- - Login to the private uvoids dockerhub. Run `docker login -u username` (use the docker password provided). -->
-  - Pull the image: `docker pull uvoids/uvoids:0.1.0`
-  <!-- - Logout so that others can login: `docker logout` -->
+  - ~~From the docker hub:~~ (temporarily offline)
+    - ~~Launch a new terminal console (terminal on Mac, cmd on Windows).~~
+    - ~~Pull the image: `docker pull uvoids/uvoids:0.1.0`~~
+  - Manually:
+    - Download the latest image [here](https://github.com/dcg-lx/csv_docker/releases/download/v0.1.0/uvoids.tar.gz). Save it somewhere but do not extract it.
+    - Alternatively, browse for a specific release [here](https://github.com/dcg-lx/csv_docker/releases)
 - Build the container and bind it to your data folder:
-  - MacOS / Linux: `docker run -i -t -v ~/uvoids:/home/app/uvoids --name uvoids uvoids/uvoids:0.1.0`
-  - Windows: `docker run -i -t -v Users\<USERNAME>\uvoids:\home\app\uvoids --name uvoids uvoids/uvoids:0.1.0`/
+  - ~~If you got the release from docker hub:~~
+    - ~~In your command prompt, type the following:~~
+      - ~~MacOS / Linux: `docker run -i -t -v ~/uvoids:/home/app/uvoids --name uvoids uvoids/uvoids:0.1.0`~~
+      - ~~Windows: `docker run -i -t -v Users\<USERNAME>\uvoids:\home\app\uvoids --name uvoids uvoids/uvoids:0.1.0`/~~
+  - If you downloaded the release manually:
+    - In your command prompt, `cd` to the folder you saved the image, and then type the following:
+      - MacOS / Linux: `docker run -itv ~/uvoids:/home/app/uvoids --name uvoids uvoids_img`
+      - Windows: `docker run -i -t -v Users\<USERNAME>\uvoids:\home\app\uvoids --name uvoids uvoids_img`/
 - You are now in the linux virtual machine. Type `exit` inside the vm to leave. The installation is finished
 
 ## Usage
