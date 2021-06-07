@@ -69,7 +69,7 @@ uvoids --tolerance=0.0001
 
 ## Issues
 
-If you run into any issues please create an issue on the [issues report page](https://github.com/joaoponceleao/dcg_uvoids/issues/new/choose){:target="_blank" rel="noopener"} so we can follow it and either, fix it, or suggest alternatives. Please check for any open or closed issues first in the [issues list page](https://github.com/joaoponceleao/dcg_uvoids/issues?q=is%3Aissue){:target="_blank" rel="noopener"}.
+If you run into any issues please create an issue on the [issues report page](https://github.com/dcg-lx/csv_public/issues/new/choose){:target="_blank" rel="noopener"} so we can follow it and either, fix it, or suggest alternatives. Please check for any open or closed issues first in the [issues list page](https://github.com/dcg-lx/csv_public/issues?q=is%3Aissue){:target="_blank" rel="noopener"}.
 
 ## Contributing and Branches
 

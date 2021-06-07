@@ -30,8 +30,8 @@ If you are experiencing problems, or want to experiment with new developments su
 - CLI installation and [instructions]({{site.baseurl}}{% post_url 2021-04-30-cli-instructions %})
 - CLI help [documentation]({{site.baseurl}}{% post_url 2021-05-03-cli-help %})
 - QGIS 3 installation and instructions (under development)
-- Check open and closed [issues](https://github.com/joaoponceleao/dcg_uvoids/issues?q=is%3Aissue){:target="_blank" rel="noopener"} for workarounds
-- Submit a bug [report](https://github.com/joaoponceleao/dcg_uvoids/issues/new/choose){:target="_blank" rel="noopener"}
+- Check open and closed [issues](https://github.com/dcg-lx/csv_public/issues?q=is%3Aissue){:target="_blank" rel="noopener"} for workarounds
+- Submit a bug [report](https://github.com/dcg-lx/csv_public/issues/new/choose){:target="_blank" rel="noopener"}
 
 ## Authors
 
