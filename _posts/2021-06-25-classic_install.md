@@ -1,4 +1,10 @@
-# Instructions
+---
+layout: post
+title:  CSV Classic Toolset Installation
+date:   2021-06-25 18:44:00 +0100
+categories: classic
+permalink: /classic-help/
+---
 
 ## Software requirements
 
